@@ -1,0 +1,113 @@
+/* resetare css */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr,
+img,
+.main-header, .primary-content {
+    margin-bottom: 1rem;
+}
+
+.main-header{
+	background-color: #42444e;
+	text-align: center;
+	padding: 1.25rem;
+	color: aliceblue;
+}
+
+
+.post{
+
+	width: 95%;
+	margin: 0 auto;
+	padding: 0.3125rem;
+}
+
+body{
+	font-family: 'Fauna One', sans-serif;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	color: #333;
+}
+
+h1,h2{
+	font-family: 'Playfair Display', sans-serif;
+}
+
+h1{
+	font-size: 2.2rem;
+}
+
+h2{
+	font-size:1.8rem;
+	color: #e5127d;
+}
+
+.main-header p{
+	font-size: 1rem;
+	letter-spacing: 2px;
+	color: #8c8e9b;
+}
+
+img{
+	width: 100%;
+}
+
+.button{
+	display: inline-block;
+	text-decoration: none;
+	border: 1px #8c8e9b solid;
+	color: #8c8e9b;
+	border-radius: 10px;
+	padding-left: 1px;
+	padding-right: 5px;
+	margin: 5px;
+	width: 100px;
+	font-family: 'Fauna One';
+}
+
+.button:hover{
+	border: 1px solid #b60e63;
+	color: indianred;
+	background-color:firebrick;
+}
+
+.load{
+	display: block;
+	text-align: center;
+	font-size:1.25rem;
+	text-decoration: none;
+	color:firebrick;
+	padding: 0.3125rem;
+}
+
+.load:hover{
+	color: darkslategray;
+	transition: .25s ease-in-out;
+}
